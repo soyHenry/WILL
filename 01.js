@@ -17,4 +17,4 @@ function soloNumeros(array) {
 // No modifiques nada debajo de esta linea //
 
 
-module.exports = soloNumeros
+module.exports = soloNumeros;

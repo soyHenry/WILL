@@ -1,5 +1,11 @@
 # Simulación de Henry Challenge para Practicar - JAVASCRIPT
 
+## Lee con atención todo el material.
+
+---
+
+<br/>
+
 ## **INTRODUCCIÓN**
 
 ¡Bienvenid@ a esta prueba técnica 😁! En este repositorio encontrarás un modelo del Henry Challenge que podrás utilizar como autoevaluación, y así comprobar que estás listo para aprobar el Challenge.
