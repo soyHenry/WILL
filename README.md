@@ -1,107 +1,141 @@
-# HENRY CHALLENGE - JavaScript
+# Simulación de Henry Challenge para Practicar - JAVASCRIPT
 
-### Bienvenido al Henry Challenge sobre JavaScript para la carrera Full Stack Developer.
+## **INTRODUCCIÓN**
 
-<p style="color:#f92850; font-size: 16px; text-align:center;">¡ Por favor lee TODO este material con atención !</p>
+¡Bienvenid@ a esta prueba técnica 😁! En este repositorio encontrarás un modelo del Henry Challenge que podrás utilizar como autoevaluación, y así comprobar que estás listo para aprobar el Challenge.
 
-## INTRODUCCION
+En este desafío técnico podrás practicar conceptos básicos sobre Javascript estudiados durante el Prep Course. El objetivo es que puedas chequear cuáles son tus conocimientos sólidos, y que conceptos podrías ajustar un poco más🤩.
 
-El Henry Challenge es un desafío técnico donde evaluamos conceptos básicos sobre JavaScript.
-En esta instancia, buscamos asegurarnos que todos nuestros aplicantes  tengan una base de conocimientos mínimos necesarios para luego seguir aprendiendo temas nuevos.
+Encontrarás algunos ejercicios en los que se piden cosas puntuales que tal vez no vimos en el Prep Course, pero descuida, ¡porque es a propósito! Lo ideal es que comiences a pulir tus habilidades de investigación, ya que en el mundo de la programación Google es nuestro mejor amigo.
 
-Hay cosas puntuales que tal vez no vimos específicamente en el material del Prep Course, vas a tener que investigar un poquito por tu cuenta (Google es tu mejor amigo 🤗).
+Es importante que puedas resolver todos los ejercicios que contiene este repositorio, así como también seguir todo el procedimiento a continuación.
 
->El Challenge debe resolverse de manera individual. Si te copias o recibes ayuda de compañeros, además de estar incumpliendo con las normas de Henry (lo que te dejaría afuera de la carrera), estarás perjudicándote a ti mismo, porque el primer día de clase estarías extremadamente perdido.
+---
 
-¿Se puede volver a rendir el HC?    
--   Si, el HC se puede rendir tantas veces como ustedes quieran! No hay límite de intentos.
+<br />
 
-¿Qué hago una vez entregado el HC?
-- ¡A esperar! Los van a estar contactando en un plazo no mayor a una semana para confirmarles, tanto si quedaron, como si no lo hicieron.
+## **¿CÓMO RESOLVER ESTA PRUEBA TÉCNICA?**
 
+### **_1. CLONAR_**
 
+El primer paso es clonar correctamente este repositorio en tu computadora. Para esto, te recomendamos crear una nueva carpeta (asegúrate de no utilizar la misma que el Prep Course). Si no recuerdas cómo clonar un repositorio, puedes revisarlo **[aquí](https://prep.soyhenry.com/primeros_pasos/)**.
 
-## PASOS PARA RESOLVER EL CHECKPOINT:
+Es importante que no hagas fork. El día del Challenge, los cambios subidos a un repositorio forkeado no serán válidos.
 
-### 1. Clonar
+### **_2. INSTALAR DEPENDENCIAS Y CHEQUEAR TESTING_**
 
-Vas a recibir un enlace al repo que esta alojado en nuestro github
-`checkpoints-soyhenry` 
+Desde tu terminal, dirígete al directorio en el que hayas clonado este repositorio. Una vez allí, tendrás que pararte en la carpeta raíz (la que envuelve todo), y ejecutar el siguiente comando para instalar las dependencias:
 
-Una vez que aceptes la invitacion al repo vas a poder clonar lo 
->Es importante que no hagas Fork, los cambios subidos a un repo fork no seran validos.
+```bash
+npm install
+```
 
-Para clonar el repo te recomendamos crear una nueva carpeta,  (asegurate de no utilizar la misma que el prep curse). Una vez clonado entrá a esa carpeta y ejecutá los siguientes comandos:
+Luego de instalar las dependencias, tendrás que revisar si los testing funcionan correctamente. Si ves los tests fallando, ¡estás list@ para comenzar! Si no, lee bien la terminal para identificar el problema.
 
-    npm install
-    npm test
+```bash
+npm test
+```
 
->Si ves los tests fallando, estás listo para comenzar, si no lee bien el output para identificar el error.
+### **_3. RESOLVER LOS EJERCICIOS PROPUESTOS_**
 
+Tu tarea es que pasen la mayoría de los test, completando los siguientes archivos:
 
-### 2. RESOLVER EL CHALLENGE
+-  `01.js`
+-  `02.js`
+-  `03.js`
+-  `04.js`
+-  `05.js`
+-  `06-07-08.js`
+-  `09.js`
 
-Tu tarea es completar el código en los archivos  
- - `01.js` 
- - `02.js` 
- - `03.js` 
- - `04.js` 
- - `05.js` 
- - `06-07-08.js` 
- - `09.js` 
- 
- De tal forma que pasen la mayoría de los tests.
+### **_4. ENTREGAR LA PRUEBA TÉCNICA_**
 
+Si bien esta prueba es opcional y la entrega no es obligatoria, es muy importante que practiques este paso dado a que suele traer muchas dudas y complicaciones el día del examen.
 
-### 3. ENTREGAR TU CHECKPOINT
+Primero corre por última vez los test y verifica cuántos pasan para asegurarte de estar entregando todo correctamente. Luego tendrás que ejecutar los siguientes comandos desde tu terminal:
 
-Correr por ultima vez los tests y verificar cuantos pasan. Ten en cuenta que si te aparece "1 failed;1 total" es porque tienes un error de sintaxis: seguramente falta o sobra una llave, paréntesis, punto y coma, etc.
-Saca un print de pantalla de tus tests.
-Luego, debes subir un commit a tu repo. Para hacerlo, debes ejecutar el siguiente comando:
+```bash
+git add .
+git commit -m ‘checkpoint commit’
+git push origin main
 
-    git add .
-    git commit -m 'checkpoint commit'
-    git push origin main
+```
 
-Una vez finalizado, chequea:
-1. Que veas los cambios reflejados en el repo de la cuenta de `checkpoints-soyhenry` (entrando al link brindado anteriormente.)
-2.  Que no haya un require - solo debe haber codigo dentro de las funciones de cada ejercicio 
+---
 
+<br />
 
-<img src="https://a.slack-edge.com/production-standard-emoji-assets/13.0/google-medium/26a0-fe0f@2x.png" style="float:left; width:35px; padding: 10px;" /> Atención: no debes realizar un commit después de la hora de entrega porque se anulara la totalidad del examen. 
->Revisar la hora del entrega del examen en los emails que te llegaron. 
+## **PREGUNTAS FRECUENTES**
 
-### ¿TENES ALGUN PROBLEMA / CONSULTA?
+### **🤔 ¿Cuántas veces lo puedo completar?**
 
-1. Busca la solución en la "guía de errores comunes".
+¡Todas las que quieras! No hay límite.
 
-2. Si no la encuentras, revisa el canal de #henry_challenge en Slack. Probablemente a algún compañero le paso algo similar y ya lo consulto.
+### **😦 ¿A quién o en dónde debo entregarlo una vez resuelto?**
 
-3. Si no encuentras la respuesta, puedes publicar un mensaje en dicho canal.
+A nadie y en ningún lugar. Este material es para que puedas chequear tu mismo en qué situación te encuentras.
 
-> No se puede hacer consultas sobre la resolucion de los ejercicios.
+### **🤨 ¿Qué sucede si no puedo avanzar en un ejercicio?**
 
+¡Descuida! No tienes tiempo límite para resolverlo. Por lo que puedes investigar en internet, volver a ver las clases del Prep Course e incluso repasar las homeworks que hayas completado.
 
-### GUIA DE ERRORES COMUNES
+### **🤓 ¿Si luego de seguir investigando no puedo avanzar con un ejercicio?**
 
-Para identificar el error, vas a tener que leerlo en la consola.
+Te recordamos que en slack podrás hacer consultas.
 
+### **😲 ¿Por qué cuando ejecuto el testing la terminal dice que mi PC se quedó sin memoria?**
 
-* "jest" no se reconoce como un comando externo o interno...:
-    1. Borrar la carpeta `node_modules` y el archivo `package-lock.json` e instalar nuevamente ( `npm install` ).
-    2. Si esto no funciona, instalar test con el comando `npm install jest`.
+Lo más probable es que en tu código haya un bucle infinito, por lo que deberás revisarlo y buscar una solución.
 
+### **😗 ¿Qué hay que hacer con el archivo package.json?**
 
-* 1 failed, 1 total:
-    1. Tenes un error de sintaxis. Revisa el último ejercicio que hayas hecho, seguramente falta o sobra una llave, paréntesis, punto y coma, etc.
+Absolutamente nada. Más adelante, cuando estés estudiando en el bootcamp aprenderás para qué sirve este archivo. Pero en este momento, no lo modifiques ni lo elimines, ya que es importante.
 
-* Author identity unknown.  
-    1. Intenta ejecutar los siguientes comandos para configurar tu cuenta:
-        * git config --global user.name "Tu usuario de GitHub aca"
-        * git config --global user.email "Tu email aca"
+---
 
-    2. Ingresa a [Github](https://docs.github.com/es/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) y sigue las instrucciones para configurar tu token. 
+<br />
 
-* La consola se tilda en `Runs`:
-    1. Revisa tu código, tenes un bucle infinito. Tenes que checkear la condición de corte de tus bucles.
+## **GUÍA DE ERRORES COMUNES**
 
+<p style="color: #f92850; font-weight: bold;">"jest" no se reconoce como un comando externo o interno...</p>
+
+Si lees esto en la terminal, borrar la carpeta node_modules y el archivo package-lock.json y vuelve a ejecutar el comando:
+
+```bash
+npm install
+```
+
+<p style="color: #f92850; font-weight: bold;">1 failed, 1 total</p>
+
+Debes tener un error de sintaxis. Revisa los ejercicios que hayas hecho, y asegúrate que no falte o sobre una llave, un paréntesis, un punto y coma, etc.
+
+<p style="color: #f92850; font-weight: bold;">Author identity unknown</p>
+
+Intenta ejecutar los siguientes comandos desde tu terminal para configurar tu cuenta:
+
+```bash
+git config –global user.name "_aquí escribe tu usuario de GitHub_"
+Git config –global user.email "_aquí escribe tu email_"
+git push origin main
+
+```
+
+---
+
+<br />
+
+## **DOCUMENTACIÓN**
+
+Te compartimos un poco de documentación para facilitarte algunas respuestas. ¡Pero puedes investigar en todos los lados que tu quieras!
+
+-  [String](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String)
+-  [Array](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array)
+-  [Object](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Object)
+-  [Class](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Classes)
+-  [Prototypes](https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects/Object_prototypes)
+
+---
+
+<br />
+
+## **💪¡MUCHA SUERTE!👊**
