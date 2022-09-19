@@ -1,0 +1,19 @@
+{
+  "name": "prepcheckpoint",
+  "version": "1.0.0",
+  "description": "El challenge de hoy consiste en tres partes:",
+  "main": "checkpoint.js",
+  "scripts": {
+    "test": "jest --collectCoverage=false  --verbose"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "jest": "^26.4.2"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "prompt-sync": "^4.2.0"
+  }
+}
