@@ -28,7 +28,7 @@ function soloNumeros(array) {
 
 }
 
-soloNumeros ([1, 'Henry', 2])
+
 
 // No modifiques nada debajo de esta linea //
 

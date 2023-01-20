@@ -13,8 +13,31 @@ function numeroSimetrico(num) {
   // numeroSimetrico(11711) devuelve true
 
   // Tu código:
+  residuo  = 0  ;
+  numero = num ; 
+  
+  while (num > 0) {
+    digito = num % 10 ;
+    residuo = ((residuo *10) +digito ) ; 
+    num =  Math.round (num / 10  ) ; 
+
+
+
 
 }
+
+if (residuo == numero ) 
+
+{
+  return true ;
+}
+return false ; 
+
+}
+numeroSimetrico(2341)  ; 
+
+
+
 
 // No modifiques nada debajo de esta linea //
 
