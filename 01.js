@@ -14,7 +14,7 @@ function soloNumeros(array) {
     var multi=[]
     var array
     for (let i = 0; i <= array.length; i=i+1) 
-      {if(array[i]%2>=1)
+      {if((array[i]%2)>=1)
       multi.push(array[i]) 
       }
       return multi
