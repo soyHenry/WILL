@@ -12,9 +12,9 @@ function soloNumeros(array) {
 
   // Tu código aca:
 
-  let array = [];
-
-  let filtrados = array.filter(array.length <=  Number.isInteger(array));
+  var array;
+var numero;
+  let filtrados = array.filter(numero =>  Number.isInteger(numero));
   return filtrados
    console.log(filtrados)
 
