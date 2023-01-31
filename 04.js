@@ -13,6 +13,11 @@ function numeroSimetrico(num) {
   // numeroSimetrico(11711) devuelve true
 
   // Tu código:
+  var num
+    return ""+num === (""+num).split("").reverse().join("")
+  
+  
+  
 
 }
 
