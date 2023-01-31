@@ -11,6 +11,7 @@ function soloNumeros(array) {
   // soloNumeros([1, 'Henry', 2]) debe retornar [1, 2]
 
   // Tu código aca:
+<<<<<<< HEAD
 
   var array;
 var numero;
@@ -20,6 +21,16 @@ var numero;
 
 
 }
+=======
+    var multi=[]
+    var array
+    for (let i = 0; i <= array.length; i=i+1) 
+      {if((array[i]%2)>=1)
+      multi.push(array[i]) 
+      }
+      return multi
+    }
+>>>>>>> 8cc1bc106490192ec0bc3a5f58a80aaa4c6aae74
 
 // No modifiques nada debajo de esta linea //
 
