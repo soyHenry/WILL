@@ -145,3 +145,89 @@ Te compartimos un poco de documentación para facilitarte algunas respuestas. ¡
 <br />
 
 ## **💪¡MUCHA SUERTE!👊**
+<!-- // var deportes ={
+//   conBalon:['Football','Basquetball','Rugby'],
+//   sinBalon:['Boxeo','Surf','Trekking'],
+// };
+
+// var persona = { nombre: 'Lucas', edad: 26, estudios: { esProgramador: true } };
+// console.log(persona)
+// console.log(persona.edad)
+
+// ACCEDER
+// var persona = { nombre: 'Lucas', edad: 26, estudios: { esProgramador: true } };
+// console.log(persona.edad)
+// persona.nombre='Martin';
+// console.log(persona.nombre)
+// console.log(persona.estudios.esProgramador)
+// persona.edad=25
+// console.log(persona.edad)
+// console.log(persona)
+
+// var autos={};
+// autos.marcas=['Ford','Audi','VW'];
+// autos.años=['1','2','3'];
+// console.log(autos);
+// delete autos.marcas;
+// console.log(autos)
+
+// var misFunciones={
+//   saludar: function(){
+//     console.log("hola Quelvin");
+//   }
+// }
+// misFunciones.saludar();
+// // DOT NOTATION
+// var atuendos = { manos: ['Guantes', 'Anillos'], pies: ['Zapatos', 'Soquetes'] };
+// // console.log(atuendos.manos)
+// atuendos["piernas"]=['Bermudas','Pantalones']
+// console.log(atuendos)
+var comidas={}
+var diferenciaDeNotaciones= function(propUno,propDos){
+  comidas[propUno]=['Frutas', 'Vegetales']
+  comidas[propDos]= ['Hamburguesas', 'Papas Fritas'];
+};
+diferenciaDeNotaciones('saludable','noSaludable');
+console.log(comidas); -->
+<!-- ar agenda = {nombre: ['Kalia', 'Quelvin'], segundonombre: 'Yanira', año: 1994, celular: '940434519' };
+console.log(agenda)
+var tienePropiedad1 = agenda.hasOwnProperty('nombre');
+console.log("tiene la propiedad nombre: "+ tienePropiedad1);
+var tienePropiedad2 = agenda.hasOwnProperty('segundonombre');
+console.log("tiene la propiedad segundonombre: "+ tienePropiedad2);
+var tienePropiedad3 = agenda.hasOwnProperty('año');
+console.log("tiene la propiedad año: "+ tienePropiedad3);
+var tienePropiedad4 = agenda.hasOwnProperty('celular');
+console.log("tiene la propiedad celular: "+ tienePropiedad4);
+
+// KEYS
+// var agenda = { autor: 'Borges', genero: 'Policial', año: 1990 };
+var todasLasPropiedades = Object.keys(agenda);
+console.log(todasLasPropiedades)
+
+
+// console.log(todasLasPropiedades);
+for (let x in agenda) {
+  // console.log(x);
+  console.log(agenda[x]);
+  // console.log(agenda[x]);
+}
+
+//agenda.año=1
+agenda['profesion']='Administrador'
+console.log(agenda)
+console.log(agenda.nombre[0])
+
+
+
+
+// //THIS
+// var mascota = {
+//   animal: 'Perro',
+//   raza: 'Ovejero Alemán',
+//   amistoso: true,
+//   dueño: 'María López',
+//   info: () => {
+//      console.log('Mi perro es un  ' + this.raza);
+//   },
+// }; -->
