@@ -5,7 +5,7 @@
   No comentar la funcion 
 */
 function filtrar(funcion) {
-  // Escribi una función filtrar en el prototipo de Arrays,
+  // Escribi una función filtrar n el prototipo de Arrays,
   // que recibe una funcion (callback) que devuelve true o false.
   // filtrar los elementos de ese arreglo en base al resultado de esa funcion
   // comparadora, devolver un nuevo arreglo con los elementos filtrados.
@@ -27,6 +27,15 @@ function filtrar(funcion) {
 
 };
 
+var mascota = {
+  animal: 'Perro',
+  raza: 'Ovejero Alemán',
+  amistoso: true,
+  dueño: 'María López',
+  info:mascota(raza) => {
+     console.log('Mi perro es un  ' + this.raza)
+  },
+};
 // No modifiques nada debajo de esta linea //
 
 module.exports = filtrar
