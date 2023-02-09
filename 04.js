@@ -12,8 +12,20 @@ function numeroSimetrico(num) {
   // Ej:
   // numeroSimetrico(11711) devuelve true
 
-  // Tu código:
+  const array = num.toString().split("");
+  let i = 0;
+  let j = array.length - 1;
+  let isSimetric = true;
 
+  while (i < j) {
+    if (array[i] !== array[j]) {
+      isSimetric = false;
+    }
+    i++;
+    j--;
+  }
+
+  return isSimetric;
 }
 
 // No modifiques nada debajo de esta linea //
