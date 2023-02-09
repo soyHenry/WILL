@@ -23,7 +23,7 @@ function filtrar(funcion) {
   // }]
   // productos.filtrar(function(p) {
   //   return p.price >= 50;
-  // }) => [{price: 100, name:'tv'}]
+  // }) => [{price: 50 , name:'phone'},{price: 100, name:'tv'}]
 
 };
 
