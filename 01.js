@@ -11,6 +11,8 @@ function soloNumeros(array) {
   // soloNumeros([1, 'Henry', 2]) debe retornar [1, 2]
 
   // Tu código aca:
+  const array =[1,2,3,'Henry','Gus'];
+  return array[0,1];
 
 }
 
